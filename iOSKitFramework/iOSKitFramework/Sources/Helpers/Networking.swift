@@ -19,6 +19,27 @@ public enum DataType {
     case Image_With_JSON
 }
 
+
+
+public extension Decodable {
+    static func decode(data: Data) throws -> Self {
+        let decoder = JSONDecoder()
+        return try decoder.decode(Self.self, from: data)
+    }
+}
+
+
+
+public extension Encodable {
+    func encode() throws -> Data {
+        let encoder = JSONEncoder()
+        encoder.outputFormatting = .prettyPrinted
+        return try encoder.encode(self)
+    }
+}
+
+
+
 public  typealias Parameters = [String:Any]
 
 public class APIManager {
