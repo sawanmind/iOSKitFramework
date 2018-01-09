@@ -13,7 +13,8 @@ class MainVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
+        ThemeManager.applyTheme(theme: .light)
+        view.backgroundColor = ThemeManager.currentTheme().backgroundColor
     }
 
 

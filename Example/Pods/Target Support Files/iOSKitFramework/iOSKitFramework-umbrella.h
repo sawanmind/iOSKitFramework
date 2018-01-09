@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "iOSKit_Framework.h"
+#import "iOSKitFramework.h"
 
-FOUNDATION_EXPORT double iOSKit_FrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char iOSKit_FrameworkVersionString[];
+FOUNDATION_EXPORT double iOSKitFrameworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char iOSKitFrameworkVersionString[];
 
