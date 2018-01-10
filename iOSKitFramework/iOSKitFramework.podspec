@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name                  = "iOSKitFramework"
-  s.version               = "1.0.0"
+  s.version               = "1.0.1"
   s.summary               = "This framework is a collection of dailylife generic code."
   s.description           = "This framework is a collection of dailylife generic code, such as Networking, BlurView, etc."
   s.homepage              = "https://gt
